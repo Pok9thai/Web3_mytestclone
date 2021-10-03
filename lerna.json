@@ -1,14 +1,8 @@
 {
-  "version": "6.2.5",
-  "npmClient": "yarn",
-  "command": {
-    "publish": {
-      "ignoreChanges": [
-        "*.md"
-      ]
-    }
-  },
+  "version": "independent",
   "packages": [
     "packages/*"
-  ]
+  ],
+  "npmClient": "yarn",
+  "ignoreChanges": ["**/*.md", "**/*.spec.ts"]
 }
